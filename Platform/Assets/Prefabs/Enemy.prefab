@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1377930045662219411}
   - component: {fileID: 9196993801686096634}
   - component: {fileID: 7939786538998889672}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7091568743692001802}
   - component: {fileID: 4214967629195743608}
-  - component: {fileID: 2711360749746880688}
   m_Layer: 0
   m_Name: EnemyBody
   m_TagString: Untagged
@@ -170,7 +169,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5c7134a60183e104e83023762a0b5424, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -178,44 +177,9 @@ SpriteRenderer:
   m_Size: {x: 0.79296875, y: 1.171875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &2711360749746880688
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3779159581991351843}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.036803007, y: 0}
-  m_Size: {x: 0.71936274, y: 1.171875}
-  m_Direction: 0
 --- !u!1 &4952895381181895077
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +192,7 @@ GameObject:
   - component: {fileID: 5658625568974492085}
   - component: {fileID: 7326207127224736748}
   - component: {fileID: 907402212518257375}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: GroundChecker
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
