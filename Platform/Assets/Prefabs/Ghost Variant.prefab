@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1186181873140514620, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1377930045662219411, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       propertyPath: m_BodyType
       value: 0
@@ -20,12 +24,28 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3779159581991351843, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4214967629195743608, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 604dc8985e9216b439fe7b2a53a32182, type: 3}
     - target: {fileID: 4214967629195743608, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952895381181895077, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250046906227324739, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250046906227324739, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7250046906227324739, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
@@ -68,13 +88,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9196993801686096634, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Direction","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Health","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1186181873140514620, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3424879786155208437}
+      addedObject: {fileID: 7179001202548289305}
     - targetCorrespondingSourceObject: {fileID: 3779159581991351843, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5057170593379409683}
@@ -87,7 +114,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1186181873140514620, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
   m_PrefabInstance: {fileID: 6915422687318223616}
   m_PrefabAsset: {fileID: 0}
---- !u!70 &3424879786155208437
+--- !u!70 &7179001202548289305
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,8 +146,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.039277703, y: 0.039277732}
-  m_Size: {x: 0.707941, y: 1.0785555}
+  m_Offset: {x: -0.072502375, y: -0.0044658184}
+  m_Size: {x: 1.1963267, y: 1.9861429}
   m_Direction: 0
 --- !u!1 &7749219236385135907 stripped
 GameObject:
@@ -159,8 +186,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.041588187, y: 0}
-  m_Size: {x: 0.7097924, y: 1.171875}
+  m_Offset: {x: -0.07561153, y: -0.00029963255}
+  m_Size: {x: 1.192422, y: 1.970909}
   m_Direction: 0
 --- !u!95 &724085886192051881
 Animator:
