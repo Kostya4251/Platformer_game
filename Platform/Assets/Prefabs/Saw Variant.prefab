@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saw Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3779159581991351843, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 4214967629195743608, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       propertyPath: m_Size.x
       value: 0.16
@@ -27,6 +31,10 @@ PrefabInstance:
     - target: {fileID: 4214967629195743608, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952895381181895077, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7250046906227324739, guid: aced8ea5b3db0e04b984a9db7e53f29d, type: 3}
       propertyPath: m_LocalPosition.x
